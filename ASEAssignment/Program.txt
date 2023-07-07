@@ -1,0 +1,20 @@
+﻿test = 10*100+10
+count = 0
+count = 5
+If 20+20==40
+	test = test+5
+Endif
+testCommand 11, 40, count
+meow=0
+Method testing(i, i2)
+	meow=i2+meow
+Endmethod
+
+testing(10, 11)
+testing(10, 11)
+testing(10, 11)
+
+i = 0
+While i<10
+	i=i+1
+Endloop
